@@ -15,7 +15,7 @@ const AboutUs = () => {
           <h3 className="text-primary font-oswald font-bold text-[40px]">
             Welcome to Plantush
           </h3>
-          <p className="font-poppins font-normal px-1 my-10">
+          <p className="font-poppins font-normal px-1 my-10 text-justify">
             It is a long established fact that a reader will be distracted by
             the readable content of a page when looking at its layout. The point
             of using Lorem Ipsum is that it has a more-or-less normal
