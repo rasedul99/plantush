@@ -10,12 +10,14 @@ const AboutUs = () => {
         <div className="basis-1/2 flex flex-col  items-center md:items-start">
           <div className="flex items-center">
             <img src="/assets/images/aboutuslogo.png" />
-            <p className="text-secondary">About Us</p>
+            <p className="text-secondary font-poppins font-semibold text-xl">
+              About Us
+            </p>
           </div>
           <h3 className="text-primary font-oswald font-bold text-[40px]">
             Welcome to Plantush
           </h3>
-          <p className="font-poppins font-normal px-1 my-10 text-justify">
+          <p className="font-poppins font-normal px-1 my-10 text-justify text-gray">
             It is a long established fact that a reader will be distracted by
             the readable content of a page when looking at its layout. The point
             of using Lorem Ipsum is that it has a more-or-less normal

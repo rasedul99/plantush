@@ -1,5 +1,6 @@
 import AboutUs from "@components/Home/AboutUs";
 import Hero from "@components/Home/Hero";
+import PlantHouse from "@components/Home/PlantHouse/PlantHouse";
 import WorkProcess from "@components/Home/WorkProcess";
 import Head from "next/head";
 import React from "react";
@@ -10,6 +11,7 @@ const Home = () => {
       <Hero />
       <AboutUs />
       <WorkProcess />
+      <PlantHouse />
     </div>
   );
 };

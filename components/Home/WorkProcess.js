@@ -6,7 +6,9 @@ const WorkProcess = () => {
     <div className="max-w-7xl mx-auto">
       <div className="flex justify-center items-center">
         <img src="/assets/images/aboutuslogo.png" />
-        <p className="text-secondary">Work Process</p>
+        <p className="text-secondary font-poppins font-semibold text-xl">
+          Work Process
+        </p>
       </div>
       <h3 className="text-center text-primary font-oswald font-bold text-[40px]">
         Our Easy Work Process

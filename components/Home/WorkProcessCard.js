@@ -7,7 +7,7 @@ const WorkProcessCard = ({ image, title, desc }) => {
       <h3 className="font-poppins font-semibold text-xl mt-5 mb-[10px]">
         {title}
       </h3>
-      <p className="font-poppins font-normal">{desc}</p>
+      <p className="font-poppins font-normal text-gray">{desc}</p>
     </div>
   );
 };
