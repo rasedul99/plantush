@@ -1,4 +1,5 @@
 import AboutUs from "@components/Home/AboutUs";
+import Experience from "@components/Home/Experience/Experience";
 import Hero from "@components/Home/Hero";
 import PlantHouse from "@components/Home/PlantHouse/PlantHouse";
 import WorkProcess from "@components/Home/WorkProcess";
@@ -12,6 +13,7 @@ const Home = () => {
       <AboutUs />
       <WorkProcess />
       <PlantHouse />
+      <Experience />
     </div>
   );
 };
