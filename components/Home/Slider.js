@@ -9,27 +9,58 @@ const SimpleSlider = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
+    speed: 4000,
+    autoplaySpeed: 4000,
+    cssEase: "linear",
+    responsive: [
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+        },
+      },
+    ],
   };
   return (
-    <Slider {...settings} className="w-[490px]">
-      <div className="bg-white py-5 px-4 rounded-tl-[40px] rounded-br-[40px]">
+    <Slider {...settings} className="w-[300px] md:w-[350px] lg:w-[470px]">
+      <div className="bg-white  py-4 px-[6px] rounded-tl-[40px] rounded-br-[40px]">
         {" "}
-        <img src="/assets/images/slider/sliderone.png" />
+        <img
+          src="/assets/images/slider/sliderone.png"
+          className="w-[110px] h-[104px]"
+        />
+      </div>
+      <div className=" bg-white py-4 px-[6px] rounded-tl-[40px] rounded-br-[40px]">
+        <img
+          src="/assets/images/slider/slidertwo.png"
+          className="w-[110px] h-[104px]"
+        />
+      </div>
+      <div className=" bg-white py-4 px-[6px] rounded-tl-[40px] rounded-br-[40px]">
+        <img
+          src="/assets/images/slider/sliderthree.png"
+          className="w-[110px] h-[104px]"
+        />
+      </div>
+      <div className=" bg-white py-4 px-[6px] rounded-tl-[40px] rounded-br-[40px]">
+        <img
+          src="/assets/images/slider/sliderone.png"
+          className="w-[110px] h-[104px]"
+        />
       </div>
       <div className=" bg-white py-5 px-4 rounded-tl-[40px] rounded-br-[40px]">
-        <img src="/assets/images/slider/sliderone.png" />
+        <img
+          src="/assets/images/slider/slidertwo.png"
+          className="w-[110px] h-[104px]"
+        />
       </div>
-      <div className=" bg-white py-5 px-4 rounded-tl-[40px] rounded-br-[40px]">
-        <img src="/assets/images/slider/sliderone.png" />
-      </div>
-      <div className=" bg-white py-5 px-4 rounded-tl-[40px] rounded-br-[40px]">
-        <img src="/assets/images/slider/sliderone.png" />
-      </div>
-      <div className=" bg-white py-5 px-4 rounded-tl-[40px] rounded-br-[40px]">
-        <img src="/assets/images/slider/sliderone.png" />
-      </div>
-      <div className="bg-white py-5 px-4 rounded-tl-[40px] rounded-br-[40px]">
-        <img src="/assets/images/slider/sliderone.png" />
+      <div className="bg-white py-4 px-[6px] rounded-tl-[40px] rounded-br-[40px]">
+        <img
+          src="/assets/images/slider/sliderthree.png"
+          className="w-[110px] h-[104px]"
+        />
       </div>
     </Slider>
   );
