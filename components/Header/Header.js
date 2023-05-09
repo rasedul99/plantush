@@ -3,27 +3,32 @@ import { AiOutlineMail } from "react-icons/ai";
 import { FiInstagram, FiLinkedin } from "react-icons/fi";
 const Header = () => {
   return (
-    <div className="bg-primary py-3 text-white font-poppins font-medium">
-      <div className="max-w-7xl mx-auto ">
-        <div className="mx-2 flex flex-col-reverse gap-y-2 md:flex-row md:justify-between md:items-center">
-          <div className="flex justify-between md:gap-x-[22px]  ">
-            <div className="flex gap-x-[6px] items-center">
-              <img src="/assets/icons/call.png" className="w-[19px] h-[19px]" />
-              <p className="text-base md:text-lg">00440012345678 </p>
+    <div className="hidden md:flex">
+      <div className="bg-primary py-3 text-white font-poppins font-medium w-full">
+        <div className="max-w-7xl mx-auto ">
+          <div className=" flex justify-between items-center">
+            <div className="flex gap-x-[22px]  ">
+              <div className="flex gap-x-[6px] items-center">
+                <img
+                  src="/assets/icons/call.png"
+                  className="w-[19px] h-[19px]"
+                />
+                <p className="text-lg">00440012345678 </p>
+              </div>
+              <div className="flex gap-x-[6px] items-center">
+                <AiOutlineMail size={18} />
+                <p className="text-lg">plantush@plantush.com</p>
+              </div>
             </div>
-            <div className="flex gap-x-[6px] items-center">
-              <AiOutlineMail size={18} />
-              <p className="text-base md:text-lg">plantush@plantush.com</p>
+            <div className="flex gap-x-[21px] ">
+              <img
+                src="/assets/icons/facebook.png"
+                className="w-[10px] h-[18px]"
+              />
+              <img src="/assets/icons/twitter.png" className="w-5 h-4" />
+              <FiInstagram size={18} />
+              <FiLinkedin size={18} />
             </div>
-          </div>
-          <div className="flex justify-between  md:gap-x-[21px] ">
-            <img
-              src="/assets/icons/facebook.png"
-              className="w-[10px] h-[18px]"
-            />
-            <img src="/assets/icons/twitter.png" className="w-5 h-4" />
-            <FiInstagram size={18} />
-            <FiLinkedin size={18} />
           </div>
         </div>
       </div>
