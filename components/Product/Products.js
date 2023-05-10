@@ -11,8 +11,8 @@ const Products = () => {
           <Filters />
         </div>
         <div className="w-[80%]">
-          <div className=" flex items-start  justify-between">
-            <button className=" font-poppins font-medium text-md text-dark3 flex items-center  gap-x-12 py-3 px-6 border border-primary rounded-tl-[20px] rounded-br-[20px]">
+          <div className=" flex flex-col gap-y-5 md:flex-row items-start  justify-between">
+            <button className="self-center md:self-start font-poppins font-medium text-md text-dark3 flex items-center  gap-x-12 py-3 px-6 border border-primary rounded-tl-[20px] rounded-br-[20px]">
               <p>Show : 12</p>
               <img src="/assets/icons/products/arrowdown.png" />
             </button>
