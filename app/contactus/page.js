@@ -1,4 +1,5 @@
 import ContactForm from "@components/ContactUs/ContactForm";
+import Location from "@components/ContactUs/Location";
 import Banner from "@components/Shared/Banner";
 import React from "react";
 
@@ -12,6 +13,7 @@ const ContactUs = () => {
       {/* contact form */}
 
       <ContactForm />
+      <Location />
     </div>
   );
 };

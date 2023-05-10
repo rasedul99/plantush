@@ -10,9 +10,10 @@ const Header = () => {
             <div className="flex gap-x-[22px]  ">
               <div className="flex gap-x-[6px] items-center">
                 <img
-                  src="/assets/icons/call.png"
+                  src="/assets/icons/callvector.png"
                   className="w-[19px] h-[19px]"
                 />
+
                 <p className="text-lg">00440012345678 </p>
               </div>
               <div className="flex gap-x-[6px] items-center">

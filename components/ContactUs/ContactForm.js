@@ -7,7 +7,7 @@ const ContactForm = () => {
   return (
     <div className="max-w-7xl mx-1 md:mx-auto my-[130px]">
       <h2 className="font-oswald mb-5 font-bold text-[40px] text-primary text-center md:text-left">
-        ContactForm
+        Send Us A Message
       </h2>
       <hr className="border border-secondary5" />
       <div className="flex flex-col md:flex-row gap-x-[30px] ">
@@ -24,7 +24,10 @@ const ContactForm = () => {
             </div>
             <div className="border-b mb-5 border-primary5 flex items-center gap-x-[14px] md:basis-1/2">
               {" "}
-              <img src="/assets/icons/user.png" className="w-[15px] h-[20px]" />
+              <img
+                src="/assets/icons/email.png"
+                className="w-[15px] h-[20px]"
+              />
               <input
                 type="email"
                 placeholder="Email"
@@ -33,7 +36,7 @@ const ContactForm = () => {
             </div>
             <div className="border-b mb-5 border-primary5 flex items-center gap-x-[14px] md:basis-1/2">
               {" "}
-              <img src="/assets/icons/user.png" className="w-[15px] h-[20px]" />
+              <img src="/assets/icons/call.png" className="w-[15px] h-[20px]" />
               <input
                 type="text"
                 placeholder="Phone"
@@ -42,7 +45,10 @@ const ContactForm = () => {
             </div>
             <div className="border-b  mb-5 border-primary5 flex items-center gap-x-[14px] md:basis-1/2">
               {" "}
-              <img src="/assets/icons/user.png" className="w-[15px] h-[20px]" />
+              <img
+                src="/assets/icons/website.png"
+                className="w-[15px] h-[20px]"
+              />
               <input
                 type="text"
                 placeholder="Website"
@@ -78,11 +84,11 @@ const ContactForm = () => {
           <div className="flex border border-black4">
             <img
               src="/assets/icons/call.png"
-              className="w-11 h-11 text-primary bg-primary mx-[38px] my-6"
+              className="w-11 h-11 text-primary  mx-[38px] my-6"
             />
 
             <div className="border-l border-black4 my-2"></div>
-            <div className="ml-12 my-[14px]">
+            <div className="ml-6 my-[14px]">
               <p className="font-poppins font-semibold text-xl">
                 Give Us a call
               </p>
@@ -91,16 +97,18 @@ const ContactForm = () => {
           </div>
           <div className="flex border border-black4">
             <img
-              src="/assets/icons/call.png"
-              className="w-11 h-11 text-primary bg-primary mx-[38px] my-6"
+              src="/assets/icons/email.png"
+              className="w-11 h-11 text-primary  mx-[38px] my-6"
             />
 
             <div className="border-l border-black4 my-2"></div>
-            <div className="ml-12 my-[14px]">
+            <div className="ml-6 my-[14px]">
               <p className="font-poppins font-semibold text-xl">
-                Give Us a call
+                Send an email
               </p>
-              <p className="font-poppins font-medium text-lg">00440012345678</p>
+              <p className="font-poppins font-medium text-lg">
+                plantush@plantush.com
+              </p>
             </div>
           </div>
           <div className="flex justify-center gap-x-6 py-[22px] border border-black4">
