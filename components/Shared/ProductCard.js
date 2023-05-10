@@ -10,7 +10,7 @@ const ProductCard = ({ image, title, desc, price }) => {
       <h3 className=" font-poppins text-primary font-semibold text-xl mt-5 mb-[10px] group-hover:text-white ">
         {title}
       </h3>
-      <p className="font-poppins font-normal text-gray mt-[10px] mb-[60px] text-center group-hover:text-black7">
+      <p className="font-poppins font-normal text-gray mt-[10px] mb-[76px] text-center group-hover:text-black7">
         {desc}
       </p>
       <div className="absolute -top-4 -right-2 opacity-0 group-hover:opacity-100 py-10 px-[7px] bg-secondary rounded-tl-[20px] rounded-br-[20px]">

@@ -28,8 +28,8 @@ const Navbar = () => {
     { title: "Contact Us", link: "/contactus" },
   ];
   return (
-    <nav>
-      <div className="max-w-7xl mx-2 md:mx-auto my-6 flex items-center justify-between">
+    <nav className="sticky top-0 z-30 w-full bg-white ">
+      <div className="max-w-7xl mx-2 md:mx-auto py-6 flex items-center justify-between">
         <div className="hidden md:flex items-center gap-x-[60px]">
           <div className="bg-primary p-4 w-[50px] rounded-tl-[10px] rounded-br-[10px]">
             <FiSearch size={20} className="text-white " />
