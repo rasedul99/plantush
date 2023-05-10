@@ -20,7 +20,7 @@ const Navbar = () => {
     setShow(!show);
   };
   const menuItems = [
-    { title: "Home", link: "/home", Icon: BiChevronDown },
+    { title: "Home", link: "/", Icon: BiChevronDown },
     { title: "About Us", link: "/aboutus" },
     { title: "Pages", link: "/pages", Icon: BiChevronDown },
     { title: "Product", link: "/product" },
