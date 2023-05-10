@@ -5,7 +5,7 @@ const Product = () => {
   return (
     <div>
       <div className="w-full h-[400px]  bg-[url('/assets/images/banner/product.png')] bg-no-repeat bg-center bg-cover">
-        <Banner title="Contact Us" path="Home > Product" />
+        <Banner title="Product" path="Home > Product" />
       </div>
     </div>
   );

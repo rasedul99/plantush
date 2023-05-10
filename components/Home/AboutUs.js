@@ -1,3 +1,4 @@
+import Button from "@components/Shared/Button";
 import React from "react";
 
 const AboutUs = () => {
@@ -29,10 +30,8 @@ const AboutUs = () => {
             opposed to using 'Content here, content here', making it look like
             readable English.
           </p>
-          <button></button>
-          <button className="bg-primary text-white py-4 px-[36px] rounded-tl-[20px] rounded-br-[20px] w-[169px] font-poppins font-medium text-lg">
-            Read More
-          </button>
+
+          <Button>Read More</Button>
         </div>
       </div>
     </div>
