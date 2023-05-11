@@ -15,8 +15,7 @@ const Home = () => {
       <WorkProcess />
       <PlantHouse />
       <Experience />
-      {/* <Branding /> */}
-      
+      <Branding />
     </div>
   );
 };
