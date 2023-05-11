@@ -13,16 +13,16 @@ const ContactForm = () => {
       <div className="flex flex-col md:flex-row gap-x-[30px] ">
         <form className="basis-[70%]">
           <div className="grid  md:grid-cols-2  gap-x-[30px] gap-y-10 mt-10">
-            <div className="border-b mb-5 border-primary5 flex items-center gap-x-[14px]  md:basis-1/2">
+            <div className="border-b pb-5 border-primary5 flex items-center gap-x-[14px]  md:basis-1/2">
               {" "}
               <img src="/assets/icons/user.png" className="w-[15px] h-[20px]" />
               <input
                 type="text"
                 placeholder="Name"
-                className="outline-none py-2 "
+                className="outline-none  "
               />
             </div>
-            <div className="border-b mb-5 border-primary5 flex items-center gap-x-[14px] md:basis-1/2">
+            <div className="border-b pb-5 border-primary5 flex items-center gap-x-[14px] md:basis-1/2">
               {" "}
               <img
                 src="/assets/icons/email.png"
@@ -31,19 +31,19 @@ const ContactForm = () => {
               <input
                 type="email"
                 placeholder="Email"
-                className="outline-none py-2 "
+                className="outline-none "
               />
             </div>
-            <div className="border-b mb-5 border-primary5 flex items-center gap-x-[14px] md:basis-1/2">
+            <div className="border-b pb-5 border-primary5 flex items-center gap-x-[14px] md:basis-1/2">
               {" "}
               <img src="/assets/icons/call.png" className="w-[15px] h-[20px]" />
               <input
                 type="text"
                 placeholder="Phone"
-                className="outline-none py-2 "
+                className="outline-none  "
               />
             </div>
-            <div className="border-b  mb-5 border-primary5 flex items-center gap-x-[14px] md:basis-1/2">
+            <div className="border-b  pb-5 border-primary5 flex items-center gap-x-[14px] md:basis-1/2">
               {" "}
               <img
                 src="/assets/icons/website.png"
@@ -52,7 +52,7 @@ const ContactForm = () => {
               <input
                 type="text"
                 placeholder="Website"
-                className="outline-none py-2 "
+                className="outline-none  "
               />
             </div>
             <div className="border-b pb-10 mt-[60px] border-primary5 flex items-center gap-x-[14px] md:basis-1/2">
@@ -64,7 +64,7 @@ const ContactForm = () => {
               <input
                 type="text"
                 placeholder="message"
-                className="outline-none py-2 "
+                className="outline-none  "
               />
             </div>
           </div>
