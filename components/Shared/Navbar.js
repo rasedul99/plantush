@@ -60,7 +60,7 @@ const Navbar = () => {
           className="md:hidden "
         />
 
-        <img src="/assets/images/logo.png" className="mx-3 " />
+        <img src="/assets/images/logo.png" className="mx-3" />
 
         <div className="flex justify-center gap-x-[60px]">
           <ul className="hidden  md:flex items-center gap-x-10  text-lg font-poppins font-medium">
@@ -81,7 +81,7 @@ const Navbar = () => {
             ))}
           </ul>
 
-          <div className="bg-primary p-4 w-[50px] rounded-tl-[10px] rounded-br-[10px]">
+          <div className="flex bg-primary p-4 w-[50px] rounded-tl-[10px] rounded-br-[10px]">
             <FiUser size={20} className="text-white " />
           </div>
         </div>

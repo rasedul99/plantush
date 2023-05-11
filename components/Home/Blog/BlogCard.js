@@ -7,8 +7,8 @@ const BlogCard = ({ image, date, title, desc }) => {
       <p className="font-poppins font-normal text-black3 my-1 md:mt-[18px] md:mb-[10px]">
         {date}
       </p>
-      <h3 className="font-poppins font-semibold text-[25px] ">{title}</h3>
-      <p className="font-poppins font-normal text-justify  text-black3 mt-[5px]  md:mb-[38px]">
+      <h3 className="font-poppins font-semibold text-lg md:text-[25px] ">{title}</h3>
+      <p className="font-poppins font-normal text-justify  text-black3 text-sm md:text-base mt-[5px]  md:mb-[38px]">
         {desc}
       </p>
     </div>
