@@ -3,7 +3,7 @@ import ProductCard from "../../Shared/ProductCard";
 
 const PlantHouse = () => {
   return (
-    <div className="max-w-7xl mx-auto mt-[163px] mb-[50px]">
+    <div className="max-w-7xl mx-3 md:mx-auto mt-[163px] mb-[50px]">
       <div className="flex justify-center items-center">
         <img src="/assets/images/aboutuslogo.png" />
         <p className="text-secondary font-poppins font-semibold text-xl">

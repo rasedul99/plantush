@@ -7,7 +7,7 @@ const Products = () => {
   return (
     <div className="max-w-7xl mx-auto my-[130px]">
       <div className="flex gap-x-12">
-        <div className="w-[20%]">
+        <div className="md:w-[20%]">
           <Filters />
         </div>
         <div className="w-[80%]">

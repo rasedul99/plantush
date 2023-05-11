@@ -11,7 +11,7 @@ const Planting = () => {
         />
       </div>
       <div className="basis-1/2">
-        <div className=" flex  items-center">
+        <div className="flex  items-center">
           <img src="/assets/images/aboutuslogo.png" />
           <p className="text-secondary font-poppins font-semibold text-xl">
             Welcome to Our Garden
@@ -57,7 +57,7 @@ const Planting = () => {
           </div>
         </div>
 
-        <div className="flex justify-center gap-x-12 mt-10">
+        <div className="flex justify-center md:gap-x-12 mt-10">
           <img
             src="/assets/images/garden/satisfied-customer.png"
             alt="satisfied customer"

@@ -3,7 +3,7 @@ import WorkProcessCard from "./WorkProcessCard";
 
 const WorkProcess = () => {
   return (
-    <div className="max-w-7xl mx-auto">
+    <div className="max-w-7xl md:mx-auto mx-2 ">
       <div className="flex justify-center items-center">
         <img src="/assets/images/aboutuslogo.png" />
         <p className="text-secondary font-poppins font-semibold text-xl">

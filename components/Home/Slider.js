@@ -10,7 +10,7 @@ const SimpleSlider = () => {
     slidesToScroll: 1,
     autoplay: true,
     speed: 4000,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 1000,
     cssEase: "linear",
     responsive: [
       {

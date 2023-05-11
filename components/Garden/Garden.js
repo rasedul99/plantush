@@ -4,7 +4,7 @@ import Service from "./Service";
 
 const Garden = () => {
   return (
-    <div className="max-w-7xl mx-auto">
+    <div className="max-w-7xl mx-2 md:mx-auto">
       <Planting />
       <Service />
     </div>
