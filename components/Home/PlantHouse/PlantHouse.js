@@ -13,6 +13,9 @@ const PlantHouse = () => {
       <h3 className="text-center text-primary font-oswald font-bold text-[40px]">
         Our Product
       </h3>
+
+      {/* Plant house Product section */}
+
       <div className="grid grid-cols-1 gap-y-10 md:grid-cols-4 gap-x-[30px] mt-12">
         <ProductCard
           image="/assets/images/planthouse/one.png"
@@ -63,6 +66,8 @@ const PlantHouse = () => {
           price="20"
         />
       </div>
+
+      {/* Plant house Product section end*/}
     </div>
   );
 };

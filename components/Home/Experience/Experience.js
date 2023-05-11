@@ -14,7 +14,7 @@ const Experience = () => {
         <h3 className="text-center text-white font-oswald font-bold text-[40px]">
           25 Years of Experience
         </h3>
-
+        {/* Experience card */}
         <div className=" grid  grid-cols-2  gap-y-10 md:grid-cols-4 gap-x-[30px] mt-10">
           <ExperienceCard
             icon="/assets/icons/experience/experience.png"
@@ -37,6 +37,8 @@ const Experience = () => {
             title="Professional Awards"
           />
         </div>
+
+        {/* Experience card end*/}
       </div>
     </div>
   );

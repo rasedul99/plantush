@@ -13,6 +13,9 @@ const WorkProcess = () => {
       <h3 className="text-center text-primary font-oswald font-bold text-[40px]">
         Our Easy Work Process
       </h3>
+
+      {/* workprocess card */}
+
       <div className="grid grid-cols-1 gap-y-5 md:grid-cols-4 gap-x-11 mt-10">
         <WorkProcessCard
           image="/assets/icons/workprocess/plant.png"
@@ -35,6 +38,8 @@ const WorkProcess = () => {
           desc="It is a long established fact that a reader will be distracted by the "
         />
       </div>
+
+      {/* workprocess card end*/}
     </div>
   );
 };

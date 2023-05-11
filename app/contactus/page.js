@@ -10,8 +10,6 @@ const ContactUs = () => {
         <Banner title="Contact Us" path="Home > Contact Us" />
       </div>
 
-      {/* contact form */}
-
       <ContactForm />
       <Location />
     </div>

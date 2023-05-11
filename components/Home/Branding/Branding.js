@@ -4,6 +4,7 @@ const Branding = () => {
   return (
     <div className="max-w-7xl mx-auto">
       <div className="mt-10 md:mt-[130px] mb-[122px] flex flex-col gap-y-[30px]">
+        {/* Top side image */}
         <div className="flex flex-col md:flex-row gap-x-[30px] gap-y-4">
           <div className="basis-1/2">
             <img
@@ -22,7 +23,9 @@ const Branding = () => {
             />
           </div>
         </div>
+        {/* Top side image end*/}
 
+        {/* Botom  side image */}
         <div className="flex flex-col md:flex-row gap-x-[30px] gap-y-4 ">
           <div className=" w-1/2 flex  md:gap-x-[30px] ">
             <img
@@ -41,6 +44,7 @@ const Branding = () => {
             />
           </div>
         </div>
+        {/* Botom  side image */}
       </div>
     </div>
   );

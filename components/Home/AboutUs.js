@@ -4,9 +4,13 @@ import React from "react";
 const AboutUs = () => {
   return (
     <div className="mx-2 my-[131px] md:mx-[276px]  flex flex-col md:flex-row gap-x-[72px]">
+      {/* Image on Left side */}
       <div className="basis-1/2">
         <img src="/assets/images/aboutusleft.png" className="w-full h-full" />
       </div>
+      {/* Image on Left side end*/}
+
+      {/* Description section */}
       <div className="basis-1/2 flex flex-col  items-center md:items-start">
         <div className="flex items-center">
           <img src="/assets/images/aboutuslogo.png" />
@@ -31,6 +35,7 @@ const AboutUs = () => {
 
         <Button>Read More</Button>
       </div>
+      {/* Description section */}
     </div>
   );
 };

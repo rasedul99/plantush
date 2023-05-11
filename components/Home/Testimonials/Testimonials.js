@@ -49,6 +49,9 @@ const Testimonials = () => {
           more-or-less normal distribution of letters, as opposed to using
           'Content here, content here', making it look like readable English.
         </p>
+
+        {/* Slider  */}
+
         <Slider {...settings} className="mx-5 md:mx-0">
           <TestimoialCard
             image="/assets/images/testimonial/person1.png"
@@ -69,6 +72,7 @@ const Testimonials = () => {
             review="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, "
           />
         </Slider>
+        {/* Slider end  */}
       </div>
       <div className="hidden md:flex md:w-1/3 ">
         <img
