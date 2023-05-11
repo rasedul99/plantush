@@ -4,16 +4,15 @@ import { FiInstagram, FiLinkedin } from "react-icons/fi";
 
 const Footer = () => {
   return (
-    <div className=" w-full h-[400px] mt-[130px] md:h-[655px] bg-[url('/assets/images/footer/background.png')] bg-no-repeat bg-center bg-cover">
-      <div className="py-[130px] max-w-7xl mx-auto ">
-        <div className="grid grid-cols-1 gap-x-[90px] md:grid-cols-3 lg:grid-cols-4 gap-y-2 text-white">
+    <div className=" w-full  mt-[130px] md:h-[655px] bg-primary md:bg-[url('/assets/images/footer/background.png')] bg-no-repeat bg-center bg-cover">
+      <div className="py-5 md:py-[130px] max-w-7xl mx-auto ">
+        <div className="grid grid-cols-1 md:gap-x-[90px] md:grid-cols-3 lg:grid-cols-4 gap-y-2 text-white">
           <div>
-            <h1 className="text-primary font-extrabold italic text-2xl">
-              <Link href="/">
-                {" "}
-                <img src="/assets/images/logo.png" />
-              </Link>
-            </h1>
+            <Link href="/" className="flex justify-center md:justify-start">
+              {" "}
+              <img src="/assets/images/logo.png" className="" />
+            </Link>
+
             <p className="font-poppins font-normal  my-10 text-justify text-primary6">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed
               nulla eu dui suscipit ultricies. Mauris vestibulum volutpat nisl
@@ -40,15 +39,15 @@ const Footer = () => {
             </h3>
             <ul className="flex flex-col gap-y-5">
               <li className="flex items-center gap-x-[15px]">
-                <img src="/assets/icons/address.png" alt="address" />
+                <img src="/assets/icons/footer/address.png" alt="address" />
                 <p>00440012345678</p>
               </li>
               <li className="flex items-center gap-x-[15px]">
-                <img src="/assets/icons/address.png" alt="address" />
+                <img src="/assets/icons/footer/address.png" alt="address" />
                 <p>plantush@plantush.com</p>
               </li>
               <li className="flex items-center gap-x-[15px]">
-                <img src="/assets/icons/address.png" alt="address" />
+                <img src="/assets/icons/footer/address.png" alt="address" />
                 <p>29 Washington Pl, New York, NY 10003, USA</p>
               </li>
             </ul>
@@ -78,14 +77,11 @@ const Footer = () => {
             <div className="flex mt-10 gap-x-[10px]">
               <div className="bg-white text-primary py-4 px-5 rounded-tl-[10px] rounded-br-[10px]">
                 {" "}
-                <img
-                  src="/assets/icons/facebook.png"
-                  className="w-[22px] h-[18px] "
-                />
+                <FiLinkedin size={18} />
               </div>
               <div className="bg-white text-primary py-4 px-5 rounded-tl-[10px] rounded-br-[10px]">
                 <img
-                  src="/assets/icons/twitter.png"
+                  src="/assets/icons/email.png"
                   className="w-[22px] h-[18px]"
                 />
               </div>
