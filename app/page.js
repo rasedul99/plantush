@@ -1,4 +1,5 @@
 import AboutUs from "@components/Home/AboutUs";
+import Blog from "@components/Home/Blog/Blog";
 import Branding from "@components/Home/Branding/Branding";
 import Experience from "@components/Home/Experience/Experience";
 import Hero from "@components/Home/Hero";
@@ -18,6 +19,7 @@ const Home = () => {
       <Experience />
       <Branding />
       <Testimonials />
+      <Blog />
     </div>
   );
 };
